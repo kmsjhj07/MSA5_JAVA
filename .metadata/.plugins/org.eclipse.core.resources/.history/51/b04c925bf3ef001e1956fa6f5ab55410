@@ -1,0 +1,32 @@
+package _mission.Ex17;
+
+public class RcCar implements RemoteControl {
+
+	int speed;
+	int battery;
+	
+	@Override
+	public void on() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void off() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void setSpeed(int speed) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void changeBattery() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

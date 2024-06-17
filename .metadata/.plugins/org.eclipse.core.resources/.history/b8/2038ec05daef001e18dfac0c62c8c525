@@ -1,0 +1,10 @@
+package _mission.Ex12_1;
+
+public class Circle extends Figure {
+
+	public double radius;
+	
+	Circle( double radius ) {
+		this.radius = radius;
+	}
+}

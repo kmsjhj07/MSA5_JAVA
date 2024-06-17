@@ -1,0 +1,22 @@
+package _mission.EX15;
+
+import java.util.ArrayList;
+
+public class Library {
+	public static void main(String[] args) {
+		
+		ArrayList<Book> bookList = new ArrayList<>();
+		
+		
+		bookList.add(Book);
+		Book book = new Book(123123, "이게 자바냐", "감자바", "자바 감자바", 33000);
+		bookList.add(new Book(112112, "정보처리기사", "김휴먼", "국가기술자격", 45000));
+		Book book1 = new Book();
+		bookList.add(new Book(001001, "실무 DB", "박디비", "디비디비딥", 60000));
+		Book book2 = new Book();
+		
+		for(int i=0;i<=bookList.size();i++) {
+			System.out.println(bookList);
+		}
+	}
+}

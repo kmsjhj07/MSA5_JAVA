@@ -1,0 +1,10 @@
+package _mission.EX15;
+
+import java.util.ArrayList;
+
+public class Library {
+	public static void main(String[] args) {
+		
+		ArrayList<book> bookList = new ArrayList<>();
+	}
+}

@@ -1,0 +1,9 @@
+package _mission.EX15;
+
+public class Library {
+	public static void main(String[] args) {
+		
+		Book book = new Book(123123, "이게 자바냐", "감자바", "자바 감자바", 33000);
+		System.out.println("##### 도서관 #####");
+	}
+}

@@ -1,0 +1,14 @@
+package _mission.Ex17;
+
+public class Driver {
+
+	public static void main(String[] args) {
+		
+		RemoteControl RcCar1 = new RcCar();
+		RcCar1.on();
+		RcCar1.setSpeed(20);
+		RcCar1.off();
+		System.out.println();
+		RcCar1.changeBattery();
+	}
+}

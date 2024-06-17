@@ -1,0 +1,24 @@
+package _mission.EX15;
+
+public class Book {
+	
+	int isbn;
+	String title;
+	String writer;
+	String content;
+	int price;
+	
+	public Book() {
+		this(000000, "없음", "없음", 00000);
+	}
+
+	public Book(int isbn, String title, String writer, String content, int price) {
+		this.isbn = isbn;
+		this.title = title;
+		this.writer = writer;
+		this.content = content;
+		this.price = price;
+	}
+	
+	
+}

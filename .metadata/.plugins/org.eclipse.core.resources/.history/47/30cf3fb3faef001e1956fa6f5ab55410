@@ -1,0 +1,28 @@
+package _mission.Ex17;
+
+public class Drone implements RemoteControl {
+	
+	double speed;
+	double battery;
+
+	@Override
+	public void on() {
+		
+	}
+
+	@Override
+	public void off() {
+		
+	}
+
+	@Override
+	public void setSpeed(int speed) {
+		
+	}
+
+	@Override
+	public void changeBattery() {
+		
+	}
+
+}

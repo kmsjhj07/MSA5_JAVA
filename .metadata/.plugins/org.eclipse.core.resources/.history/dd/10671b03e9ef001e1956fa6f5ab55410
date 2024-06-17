@@ -1,0 +1,7 @@
+package _mission.EX15;
+
+public class Library {
+	public static void main(String[] args) {
+		Book book = new Book();
+	}
+}
